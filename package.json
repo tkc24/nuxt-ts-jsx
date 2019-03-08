@@ -1,0 +1,28 @@
+{
+  "name": "nuxt_ts",
+  "version": "1.0.0",
+  "description": "My first-class Nuxt.js project",
+  "author": "takeshi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt-ts": "^2.4.5",
+    "vue-property-decorator": "^8.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "ts-jest": "^24.0.0",
+    "vue-jest": "^3.0.3"
+  }
+}

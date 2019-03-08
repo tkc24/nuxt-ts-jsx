@@ -1,0 +1,16 @@
+{
+  "extends": "@nuxt/typescript",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "module": "commonjs",
+    "jsxFactory": "h",
+    "jsx": "react",
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app"
+    ]
+  }
+}
